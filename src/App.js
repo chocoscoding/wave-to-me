@@ -99,6 +99,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]);
+      checkIfWalletIsConnected()
     } catch (error) {
       console.log(error)
     }

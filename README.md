@@ -1,11 +1,13 @@
-# buildspace Wave Portal 👋 
+# Wave to me👋 
+Visit the site and tell me what you think [Wave to me Site](https://wavetome.vercel.app/)
 
 ### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
+This site was built with react, Solidity, hardhat and JS
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+You send waves and some details and it gets stored on the blockchain.
+NICEEEE!
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) and link your Discord account so you can get access to helpful channels and your instructor!
+Github repo for smart contract [Smart contract](https://github.com/chocoscoding/my-wave-portal)
+
+
+@chocoscoding 2022
