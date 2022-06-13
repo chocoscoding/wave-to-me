@@ -78,6 +78,7 @@ const App = () => {
       } else {
         console.log("No authorized account found")
       }
+      
     } catch (error) {
       console.log(error);
     }
@@ -99,7 +100,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]);
-      checkIfWalletIsConnected()
+      // checkIfWalletIsConnected()
     } catch (error) {
       console.log(error)
     }
