@@ -4,7 +4,7 @@ import "./App.css";
 import abi from "./utils/Waveportal.json"; 
 
 const App = () => {
-  const contractAddress = "0x1EA20331EED21C6e01D5aaC010dBae882549E9B6"
+  const contractAddress = "0xB53294893C15758B86721bc1199EB028aF35C398"
 
    const shortenAddress = (address, no) => `${address.slice(0, no)}...${address.slice(address.length - 4)}`
   const [currentAccount, setCurrentAccount] = useState("");
@@ -100,7 +100,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]);
-      // checkIfWalletIsConnected()
+      checkIfWalletIsConnected()
     } catch (error) {
       console.log(error)
     }
