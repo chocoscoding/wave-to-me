@@ -1,3 +1,7 @@
+body{
+  background-color: #212439;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -9,6 +13,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
   max-width: 600px;
 }
 
@@ -16,19 +22,110 @@
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  color: #6778fe;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: #c5cbf6c6;
   margin-top: 16px;
+  width: 95%;
+  word-break: keep-all;
+  word-wrap: break-word;
+  
 }
+
 
 .waveButton {
   cursor: pointer;
-  margin-top: 16px;
-  padding: 8px;
+  margin-top: 16px;  
+  max-width: 690px;
   border: 0;
+  height: 2rem;
+  font-weight: 600;
+  font-size: medium;
+  color: #141835;
+  width: 95%;
   border-radius: 5px;
   
+}
+.popup {
+  cursor: pointer;
+  background-color: #d9191c;
+  word-break: keep-all;
+  word-wrap: break-word;
+  margin-top: 16px;
+  padding: 8px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  width: 95%;
+  border-radius: 5px;
+  
+}
+.processing {
+  cursor: pointer;
+  background-color: #19d91c;
+  word-break: keep-all;
+  word-wrap: break-word;
+  margin-top: 16px;
+  padding: 8px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  width: 95%;
+  border-radius: 5px;
+  
+}
+
+.cont{
+  border: none;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxreceive{
+  width: 90%;
+  border: 1px solid rgba(201, 197, 197, 0.193);
+  border-radius: 10px;
+  margin-top: 16px;
+  padding: 8px;
+  color: #c5cbf6c6;
+  max-width: 600px;
+  background-color: #141835;
+}
+
+.boxreceive div{
+  min-height: 2rem;
+}
+
+
+
+.text{
+  margin: 1rem 0 0 0;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #d6daf592;
+  background-color: #141835;
+  color: #fff;
+  width: 90%;
+  max-width: 690px;
+  padding-left: 1.3rem;
+  outline: none;
+  font-size: medium;
+
+}
+
+a{
+  color: inherit;
+  color: #fff;
+  font-weight: 400;
+
 }
