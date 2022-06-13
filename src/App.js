@@ -240,7 +240,7 @@ const App = () => {
 
         {ErrorPop.v && (
           <div className="popup">{ErrorPop.txt}</div>
-        )};
+        )}
 
         {processing.v && (
           <div className="processing">{processing.txt}</div>
